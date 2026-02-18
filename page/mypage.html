@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <!-- TODO: change name later -->
     <title>サイト</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <!-- TODO: change name later -->
       <div class="header_logo">
-        <a class="header_button" href="index.html"><h1>サイト</h1></a>
+        <a class="header_button" href="../index.html"><h1>サイト</h1></a>
       </div>
       <nav>
         <a class="header_button" href="/page/mypage.html">マイページ</a>
@@ -22,17 +22,51 @@
       <section>
         <table>
           <tr>
-            <td><p class="name_input">名前</p></td>
-            <td><p class="name_input" id="username">なまえ</p></td>
+            <td>
+              <p>名前：</p>
+            </td>
+            <td>
+              <p id="name">名前</p>
+            </td>
+            <td>
+              <button id="edit_name">名前変更</button>
+            </td>
           </tr>
           <tr>
-            <!-- ADD MORE -->
+            <td>
+              <p>ユーザー名：</p>
+            </td>
+            <td>
+              <p id="username">ユーザー名</p>
+            </td>
+            <td>
+              <button id="edit_username">ユーザー名変更</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>メールアドレス：</p>
+            </td>
+            <td>
+              <p id="email">メールアドレス</p>
+            </td>
+            <td>
+              <button id="edit_email">メールアドレス変更</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>チーム名</p>
+            </td>
+            <td>
+              <p id="team_name">チーム名</p>
+            </td>
           </tr>
         </table>
       </section>
     </main>
     <footer>
-      <script src="js/script.js"></script>
+      <script src="../js/script.js"></script>
       <p>HAL EVENT WEEK用の作品です。</p>
     </footer>
   </body>

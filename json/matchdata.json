@@ -1,0 +1,54 @@
+[
+  {
+    "match_id": 1,
+    "sport": "サッカー",
+    "team1_id": 1,
+    "team2_id": 2,
+    "date": "2024-06-01T15:00:00Z",
+    "location": "スタジアムA",
+    "scores": {
+      "team1": 3,
+      "team2": 2
+    },
+    "events": [
+      {
+        "time": "2024-06-01T15:30:00Z",
+        "team_id": 1,
+        "player_id": 10,
+        "event_type": "goal"
+      },
+      {
+        "time": "2024-06-01T16:00:00Z",
+        "team_id": 2,
+        "player_id": 20,
+        "event_type": "goal"
+      }
+    ]
+  },
+  {
+    "match_id": 2,
+    "sport": "卓球",
+    "team1_id": 3,
+    "team2_id": 4,
+    "date": "2024-06-02T10:00:00Z",
+    "location": "体育館B",
+    "scores": {
+      "team1": 3,
+      "team2": 0
+    },
+    "events": [
+      {
+        "time": "2024-06-02T10:30:00Z",
+        "team_id": 3,
+        "player_id": 30,
+        "event_type": "point"
+      },
+      {
+        "time": "2024-06-02T11:00:00Z",
+        "team_id": 3,
+        "player_id": 31,
+        "event_type": "point"
+      }
+    ]
+  }
+]

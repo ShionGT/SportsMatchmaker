@@ -1,0 +1,30 @@
+[
+  {
+    "team_id": 1,
+    "team_name": "サンプルチームA",
+    "member_ids": [1, 2, 3, 4, 5],
+    "sport": "サッカー",
+    "status": "active"
+  },
+  {
+    "team_id": 2,
+    "team_name": "サンプルチームB",
+    "member_ids": [6, 7, 8, 9, 10],
+    "sport": "サッカー",
+    "status": "active"
+  },
+  {
+    "team_id": 3,
+    "team_name": "サンプルチームC",
+    "member_ids": [11, 12],
+    "sport": "卓球",
+    "status": "active"
+  },
+  {
+    "team_id": 4,
+    "team_name": "サンプルチームD",
+    "member_ids": [13, 14],
+    "sport": "卓球",
+    "status": "active"
+  }
+]

@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <!-- TODO: change name later -->
     <title>サイト</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <!-- TODO: change name later -->
       <div class="header_logo">
-        <a class="header_button" href="index.html"><h1>サイト</h1></a>
+        <a class="header_button" href="../index.html"><h1>サイト</h1></a>
       </div>
       <nav>
         <a class="header_button" href="/page/mypage.html">マイページ</a>
         <a class="header_button" href="/page/myteam.html">マイチーム</a>
         <a class="header_button" href="/page/myhistory.html">試合履歴</a>
-        <p><span id="username">名前</span>さん、ようこそ</p>
       </nav>
     </header>
     <main>
-      <div id="matchmake_button">
-        <a href="/page/matchmake.html">
-          <h2>試合を探す・試合を確認する</h2>
-        </a>
-      </div>
+      <form>
+        <label for="username">ユーザー名：</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <label for="password">パスワード：</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <button type="submit">ログイン</button>
+      </form>
+      <p>アカウントをお持ちでない方は<a href="signup.html">こちら</a></p>
     </main>
     <footer>
-      <script src="js/script.js"></script>
+      <script src="../js/script.js"></script>
       <p>HAL EVENT WEEK用の作品です。</p>
     </footer>
   </body>
