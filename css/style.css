@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+header {
+  background: #020024;
+  background: radial-gradient(
+    circle,
+    rgb(18, 15, 69) 25%,
+    rgb(57, 57, 173) 73%
+  );
+  color: white;
+}
+
+header,
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+
+.header_logo,
+nav {
+  display: block;
+  width: 48%;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.header_button {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: 50ms;
+}
+
+.header_button a :hover {
+  color: orange;
+  box-shadow: 0px 0px 20px #fff;
+}
+
+/**============================
+    index.html
+===============================*/
+
+#matchmake_button {
+  width: 50%;
+  border: 2px solid cadetblue;
+  border-radius: 20px;
+  background-color: rgba(45, 45, 179, 1);
+  background: radial-gradient(
+    circle,
+    rgb(36, 32, 112) 3%,
+    rgb(57, 57, 173) 73%
+  );
+  text-align: center;
+  margin: 10% auto;
+}
+
+#matchmake_button a,
+#matchmake_button a h2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/**============================
+    FOOTER
+===============================*/
+footer {
+  padding: 50px;
+  background-color: gray;
+  color: white;
+}
